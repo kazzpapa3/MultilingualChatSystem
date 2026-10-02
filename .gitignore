@@ -1,0 +1,30 @@
+# 依存関係
+node_modules/
+
+# CDK 合成出力・生成物
+cdk.out/
+*.d.ts
+*.js
+!jest.config.js
+
+# CDK がキャッシュする環境情報 (AWSアカウントID等を含むため公開しない)
+cdk.context.json
+
+# cdk deploy の出力 (実リソースのエンドポイント等を含むため公開しない)
+cdk-outputs.json
+outputs*.json
+
+# ログ・一時ファイル
+*.log
+.DS_Store
+
+# 環境変数・認証情報 (誤コミット防止)
+.env
+.env.*
+*.pem
+credentials
+.aws/
+
+# エディタ
+.vscode/
+.idea/
