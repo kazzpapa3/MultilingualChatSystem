@@ -278,5 +278,12 @@ npx cdk destroy
 ├── lambda/translate/index.ts         # 翻訳 Lambda (Incoming Webhook 投稿)
 ├── docs/architecture.drawio          # アーキテクチャ図 (AWS公式アイコン)
 ├── cdk.json / tsconfig.json / package.json
+├── LICENSE                           # MIT License
 └── README.md
 ```
+
+---
+
+## ライセンス
+
+[MIT License](LICENSE) の下で公開しています。

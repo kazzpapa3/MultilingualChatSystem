@@ -2,6 +2,7 @@
   "name": "multilingual-chat-system",
   "version": "1.0.0",
   "description": "CTF向け多言語対応チャットシステム (Mattermost on Fargate + Amazon Translate)",
+  "license": "MIT",
   "bin": {
     "multilingual-chat-system": "bin/app.js"
   },
